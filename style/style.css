@@ -1,0 +1,527 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Hind', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.header {
+	padding-top: 45px;
+	background-color: #f1f5ff;
+	background-image: url(header-background.png);
+	/*padding-bottom: 200px;background-image: url(food_header.png);*/
+	background-size: 1560px;
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	padding-bottom: 655px;
+	
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 202px;
+	height: 52px;
+}
+
+.logo-img {
+	width: 202px;
+	height: 52px;
+}
+
+.nav-list {
+	display: flex;
+	
+}
+
+.nav-link {
+	margin: 0 30px;
+	color: black;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.btn-appointment {
+	display: block;
+	background-color: #5347e8;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.title {
+	
+	margin-top: 150px;
+}
+
+.title-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 58px;
+	font-weight: 700;
+	line-height: 70px;
+	text-align: center;	
+
+}
+
+.btn-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 76px;
+
+}
+
+.header-services {
+	display: block;
+	background-color: #5347e8;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-right: 40px;
+}
+
+.info {
+	display: block;
+	background-color: #d8d5ff;
+	color: blue;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.book {
+	align-items: center;
+	text-align: center;
+}
+
+.booking {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 1170px;
+	height: 156px;
+	position: relative;
+	background-color: white;
+	top: -76px;
+	border-radius: 20px;
+	box-shadow: 0 41px 71px rgba(0, 52, 201, 0.1);
+
+}
+
+.book-now {
+	position: relative;
+	display: block;
+	background-color: #5347e8;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 18px;
+	width: 162px;
+	height: 52px;
+
+}
+
+.booking1 {
+	display: flex;
+	font-size: 17px;
+	font-weight: 400;
+	color: #707070;
+	width: 60vw;
+}
+
+.booking2 {
+	display: flex;
+	font-size: 22px;
+	font-weight: 500;
+	color: #333;
+	width: 60vw;
+	border-bottom: 1px solid #d0d0d0;
+	}
+
+.name {
+	width: 30%;
+}
+.speciality {
+	width: 30%;
+}
+
+.date {
+	width: 30%;
+}
+
+.doe {
+	width: 32%;
+}
+.neurologist {
+	width: 37%;
+}
+
+.april {
+	width: 20%;
+}
+
+.services {
+	margin-top: 100px;
+
+}
+
+ .services-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-header {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 46px;
+	font-weight: 700;
+	color: black;
+	
+}
+
+.services-hr {
+	width: 136px;
+	height: 4px;
+	background-color: #5347e8;
+	border: none;
+	margin-top: 30px;
+}
+
+.services-btn {
+	display: block;
+	border: 1px solid #e6e6fc;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 20px 60px;
+	line-height: 54px;
+	color: #5347e8;
+	border-radius: 20px;
+}
+
+.services-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.services-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 355px;
+	height: 393px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	margin: 20px 20px 20px 0;
+	-webkit-box-shadow: 70px 0px 150px -100px rgba(0,0,0,0.68);
+	-moz-box-shadow: 70px 0px 150px -100px rgba(0,0,0,0.68);
+	box-shadow: 0px 100px 180px -120px rgba(0,0,0,0.5);
+}
+
+.services-item-header {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 51px;
+	color: black;
+	margin-top: 20px;
+
+}
+
+.services-item-text {
+	font-size: 18px;
+	font-weight: 400;
+	color: #757575;
+	line-height: 32px;
+	width: 306px;
+	height: 104px;
+	margin-top: 10px;
+}
+
+.choose {
+	margin-bottom: 70px;
+}
+
+.container .content {
+	display: flex;
+	margin-top: 150px;
+}
+
+.choose-info {
+	
+}
+.choose-header {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 46px;
+	font-weight: 700;
+	color: black;
+}
+
+.choose-hr {
+	width: 136px;
+	height: 4px;
+	background-color: #5347e8;
+	border: none;
+	margin-top: 30px;
+}
+
+.choose-items {
+	margin-top: 30px;
+}
+
+.choose-items > .choose-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.choose-item {
+	width: 540px;
+	height: 146px;
+	border-radius: 20px;
+	background-color: #eeecff;
+	margin-top: 40px;
+}
+
+.choose-item-img {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+
+.choose-item-header {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 51px;
+}
+
+.choose-item-subtext {
+	font-weight: 400;
+	line-height: 28px;
+	width: 350px;
+	height: 55px;
+}
+
+.choose-img {
+	width: 50%;
+}
+
+
+.doctors {
+	padding-top: 150px;
+	background-color: #f1f5ff;
+	padding-bottom: 150px;
+}
+
+.doctors-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.doctors-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 46px;
+	font-weight: 700;
+	color: black;
+}
+
+.doctors-hr {
+	width: 136px;
+	height: 4px;
+	background-color: #5347e8;
+	border: none;
+	margin-top: 30px;
+}
+
+.doctors-arrow-left {
+	margin-right: 50px;
+	position: relative;
+	top:-15px;
+}
+
+.doctors-list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	/*margin-right: 30px;*/
+}
+
+.doctors-person {
+	/*border:1px solid red;*/
+	width: 362px;
+	height: 517px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #d0d6ec;
+	border-radius: 20px;
+}
+
+.doctors-photo {
+	margin-top: 20px;
+	width: 362px;
+	height: 400px;
+	text-align: center;
+
+}
+
+.doctors-position {
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	height: 137px;
+	border-radius:0 0 20px 20px;
+}
+
+.doctors-name {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 25px;
+	margin-top: 40px;
+}
+
+.doctors-status {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	margin-top: 20px;
+}
+
+.patients {
+	margin-top: 150px;
+	text-align: center;
+	list-style: none;
+}
+
+.patients-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 46px;
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.patients-hr {
+	width: 136px;
+	height: 4px;
+	background-color: #5347e8;
+	border: none;
+	margin-top: 30px;
+	margin: 0 auto;
+}
+
+.patients-img {
+	margin: 100px 0;
+}
+
+.footer {
+	background-color: #f1f5ff;
+	padding: 100px 0;
+}
+
+.footer .container {
+	display: flex;
+}
+
+.address {
+	width: calc(100vw / 4);
+}
+
+.logo-footer {
+	width: 140px;
+	height: 50px;
+	
+}
+
+.address-text {
+	line-height:38px;
+	width: 263px;
+	height: 143px;
+	font-size: 18px;
+	color: #8080a1;
+}
+
+.about {
+	width: calc(100vw / 4);
+	
+}
+
+.about-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.about-item {
+	font-weight: 500;
+	font-size: 18px;
+	line-height:38px;
+	list-style-type: none;
+	color: #8080a1;
+}
+
+.our {
+	width: calc(100vw / 4);
+}
+
+.our-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.our-item {
+	font-weight: 500;
+	font-size: 18px;
+	line-height:38px;
+	list-style-type: none;
+	color: #8080a1;
+}
+
+.time {
+	width: calc(100vw / 4);
+}
+
+.time-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.time-text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height:38px;
+	list-style-type: none;
+	color: #8080a1;
+}
+.reserved {
+	background-color: #5347e8;
+}
+
+.reserved-text {
+	font-size: 16px;
+	color:white;
+	padding: 30px 0;
+}
